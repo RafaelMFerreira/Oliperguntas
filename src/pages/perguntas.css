@@ -1,0 +1,74 @@
+.picture-pergunta-div{
+    display: inline-block;
+    width: 60px;
+}
+
+.balao-pergunta{
+    box-sizing: border-box;
+    border-radius: 0px 30px 30px 30px;
+    padding: 15px;
+    background-color: #FFF;
+    vertical-align: top;
+    display: inline-block;
+    width: calc(100% - 60px - 10px - 10px);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+
+}
+
+.picture-pergunta{
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 100px;
+}
+
+.div-main-pergunta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* ---------------------- */
+
+.picture-resposta-div{
+    display: inline-block;
+    width: 60px;
+}
+
+.balao-resposta{
+    box-sizing: border-box;
+    border-radius: 30px 0px 30px 30px;
+    padding: 15px;
+    background-color: #FFF;
+    vertical-align: top;
+    display: inline-block;
+    width: calc(100% - 60px - 10px - 10px);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+
+}
+
+.picture-resposta{
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 100px;
+}
+
+.div-main-resposta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.div-pergunta-resposta:nth-child(n+2){
+    margin-top: 50px;
+}

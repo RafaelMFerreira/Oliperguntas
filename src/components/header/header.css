@@ -5,12 +5,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  box-sizing: border-box;
+  height: 70px;
 }
 
 /* Style the logo */
 .logo {
   width: 75px;
-  height: 30px;
+  height: 40px;
   margin-right: 20px;
 }
 
@@ -24,7 +26,7 @@ header {
 /* Style the Olympics logo */
 .olympics-logo {
   width: 75px;
-  height: 30px;
+  height: 40px;
   margin-left: 20px;
 }
 

@@ -1,9 +1,19 @@
 import "./App.css";
 import React, {useState} from 'react';
-import Header from "./components/header/header";
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+
+// Components
 import Footer from "./components/footer/footer";
-import SearchBar from "./components/searchbar/searchbar";
-import Imagens from "./components/imagens/imagens";
+
+// Pages
+import ImgShare from "./pages/imgShare";
+import Login from "./pages/login";
+import Perguntas from "./pages/perguntas";
+import Pesquisa from "./pages/pesquisa";
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
@@ -22,12 +32,18 @@ function App() {
   ];
 
   return (
-    <div>
-      <Header title="Fotos"></Header>
-      {/* <SearchBar onSearch={handleSearch} ></SearchBar> */}
-      <Imagens images={imagens}></Imagens>
-      <Footer></Footer>
-    </div>
+
+    <BrowserRouter>
+        <div>
+        <Footer/>
+            <Routes>
+              <Route path="/" element={<Login/>} />
+              <Route path="/images" element={<ImgShare/>} />
+              <Route path="/pesquisa" element={<Pesquisa/>} />
+              <Route path="/perguntas" element={<Perguntas/>} />
+           </Routes>
+        </div> 
+      </BrowserRouter>
   );
 }
 

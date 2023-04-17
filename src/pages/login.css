@@ -1,0 +1,21 @@
+#login-logo {
+    width: 100%;
+
+}
+
+#login-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.login-button{
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #fffbe7;
+    margin-bottom: 10px;
+    border: 3px solid #ccb96d;
+    font-size: 30px;
+}
