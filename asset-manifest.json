@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Oliperguntas/static/css/main.0f12d5ac.css",
+    "main.js": "/Oliperguntas/static/js/main.ba26832b.js",
+    "static/js/787.c61a7c51.chunk.js": "/Oliperguntas/static/js/787.c61a7c51.chunk.js",
+    "index.html": "/Oliperguntas/index.html",
+    "main.0f12d5ac.css.map": "/Oliperguntas/static/css/main.0f12d5ac.css.map",
+    "main.ba26832b.js.map": "/Oliperguntas/static/js/main.ba26832b.js.map",
+    "787.c61a7c51.chunk.js.map": "/Oliperguntas/static/js/787.c61a7c51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f12d5ac.css",
+    "static/js/main.ba26832b.js"
+  ]
+}
