@@ -1,0 +1,33 @@
+header {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Style the logo */
+.logo {
+  width: 75px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+/* Style the title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Style the Olympics logo */
+.olympics-logo {
+  width: 75px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+body{
+  background-color: #f6edce;
+}
