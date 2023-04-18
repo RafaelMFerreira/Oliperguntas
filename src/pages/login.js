@@ -16,9 +16,9 @@ function LoginLogo(){
 function LoginButtons() {
     const navigate = useNavigate();
     return (
-        <div style={{position: 'fixed', bottom:'0px', marginBottom: '150px', width:'100%'}}>
-            <button className='login-button' onClick={() => navigate('/images')}>Login</button>
-            <button className='login-button' onClick={() => navigate('/images')}>Convidado</button>
+        <div style={{position: 'fixed', bottom:'0px', marginBottom: '70px', width:'100%'}}>
+            <button className='login-button shadow' onClick={() => navigate('/images')}>Login</button>
+            <button className='login-button shadow' onClick={() => navigate('/images')}>Convidado</button>
         </div>
     )
 }
@@ -28,6 +28,13 @@ function Login() {
    
     return (
         <>
+            <style>
+                {`
+                    footer{
+                        display: none;
+                    }
+                `}
+            </style>
             <div>
                 <LoginLogo/>
                 <LoginButtons/>

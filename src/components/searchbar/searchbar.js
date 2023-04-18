@@ -3,12 +3,7 @@ import "./searchbar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-function SearchBar() {
-  const [searchTerm, setSearchTerm] = useState("");
-
-  const handleChange = (event) => {
-    setSearchTerm(event.target.value);
-  };
+function SearchBar({onSearch}) {
 
   return (
     <div className="search-bar-container">
@@ -16,8 +11,7 @@ function SearchBar() {
         <input
           type="text"
           placeholder="Pesquisar..."
-          value={searchTerm}
-          onChange={handleChange}
+          onChange={onSearch}
           className="search-input"
         />
         <div className="search-icon-container">

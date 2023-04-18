@@ -7,7 +7,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100px;
-  background-color: #e6d384;
+  background-color: #ffffff;
 }
 
 ul {
@@ -23,7 +23,7 @@ li {
   margin: 0 25px;
 }
 
-.fa {
-  color: black;
+footer .fa {
+  color: #c7b25e;
   font-size: 80px;
 }

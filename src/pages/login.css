@@ -15,7 +15,11 @@
     height: 80px;
     border-radius: 5px;
     background-color: #fffbe7;
-    margin-bottom: 10px;
-    border: 3px solid #ccb96d;
+    border: 0px solid #ccb96d;
     font-size: 30px;
+    color: #7e6f33
+}
+
+.login-button:first-child{
+    margin-bottom: 50px;
 }
